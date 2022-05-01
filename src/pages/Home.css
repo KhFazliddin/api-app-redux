@@ -1,0 +1,15 @@
+.product_list {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 15px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  margin-top: 20px;
+}
+.fa {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  font-size: 60px;
+}
+
